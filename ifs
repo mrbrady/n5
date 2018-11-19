@@ -1,0 +1,16 @@
+#programmer:
+#date:
+#If statement program - program to tell you if you are tall enough to ride the big one
+
+#variables
+height = 0
+
+#inputs
+height = int(input("How high are you in cm?"))
+
+#processing and output
+
+if height > 132:
+  print ("You can ride the bigone")
+else:
+  print ("You are too small - come back when you are a bit taller")
